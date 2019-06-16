@@ -1,5 +1,4 @@
-
-
+import pandas as pnd
 
 
 name = input("Enter your name: ")
