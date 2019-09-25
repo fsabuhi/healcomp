@@ -6,6 +6,7 @@ age  = input("Please, enter your age: ")
 print ("How can I help you?") #Welcome message
 symptoms = input(name + ", please enter your symptoms: ")
 disease = disdict[symptoms]
+print ("You have a disease named '" + disease + "'")
 print(meddict[disease])
 
 
